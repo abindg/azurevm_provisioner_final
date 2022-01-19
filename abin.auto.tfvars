@@ -15,16 +15,6 @@ user = "adminuser"
 password = "root@123" 
 pubipname = "apache-pub" 
 vnicname = "apache-lin-nic" 
-#privateip = "10.0.1.8" 
-####################### Managed VM values #######################################################
-vmname = ""
-startaction = false
-stopaction = false
-adddisk = false
-disksize = 0
-diskcount = 0
-chgsize = false
-diskprefix = "data"
-vmsize = ""
-existingdiskcount = 0
+pubipreqd = true
+
 
