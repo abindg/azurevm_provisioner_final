@@ -1,0 +1,30 @@
+client = "sun"
+environment = "prd"
+resourcegroupname = "myrsg"
+resourcegrouplocation = "eastus"
+vnetname = "vnet"
+vnetaddress = ["10.9.0.0/16"]
+subnetname = "myweb"
+subnetaddress = ["10.9.1.0/24"]
+nsg = "web-nsg"
+nsgports = [22, 80, 443]
+vmcount = 2
+hostname = "apache-vm"  
+size = "Standard_B2s"
+user = "adminuser"
+password = "root@123" 
+pubipname = "apache-pub" 
+vnicname = "apache-lin-nic" 
+#privateip = "10.0.1.8" 
+####################### Managed VM values #######################################################
+vmname = ""
+startaction = false
+stopaction = false
+adddisk = false
+disksize = 0
+diskcount = 0
+chgsize = false
+diskprefix = "data"
+vmsize = ""
+existingdiskcount = 0
+
